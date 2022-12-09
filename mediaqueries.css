@@ -1,0 +1,161 @@
+@media screen and (max-width: 700px) and (min-width: 100px){
+.header-ul{
+  display: none;
+}
+.hidden-menu-container{
+  display: flex;
+}
+.nav-header{
+ width: 100%;
+}
+.mobile-hidden-container{
+  display: flex;
+}
+.hidden-menu-ul{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.block-calc1{
+  align-self: stretch;
+}
+
+.hero-container{
+  flex-direction: column-reverse;
+  align-items: unset;
+  column-gap: unset;
+}
+.introdution-container{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+}
+.introdution-container > h1{
+  text-align: center;
+}
+.introdution-container > p {
+    text-align: center;
+    padding: 10px 0;
+}
+.service-container{
+  flex-direction: column;
+  column-gap: unset;
+}
+.service-text-container{
+  width: 100%;
+  padding: 40px 0;
+}
+.service-pack{
+  flex-direction: column;
+  justify-content: center;
+}
+.partner-container{
+  flex-direction: column-reverse;
+  column-gap: unset;
+}
+.partner-text-container{
+  width: 100%;
+  padding: 40px 0;
+}
+.feature-container{
+  flex-direction: column;
+  column-gap: unset;
+  align-items: unset;
+}
+.feature-text-container{
+  width:100%;
+  padding: 40px 0;
+}
+.footer-header{
+  flex-wrap: wrap;
+}
+.footer-content{
+  align-items: center;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+.first-footer-ul, .second-footer-ul, .third-footer-ul, .fourth-footer-ul{
+  padding: 20px;
+  display: flex;
+}
+.pack1-row, .pack2-row{
+  flex-wrap: wrap;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.partners-row1, .partner-row2{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.partner1, .partner2, .partner3{
+  margin: 20px 0;
+}
+.partner4, .partner5, .partner6{
+  margin: 20px 0;
+}
+.pack1, .pack2, .pack3, .pack4{
+  margin: 20px 0;
+}
+.partner-button{
+  align-self: flex-end;
+}
+}
+
+@media screen and (max-width: 490px) and (min-width: 100px){
+.service-container{
+  flex-wrap: wrap;
+}
+.service-text-container{
+  align-items: center;
+}
+.service-text-container > p {
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.partner-container{
+  flex-wrap: wrap;
+}
+.partner-text-container{
+  align-items: center;
+}
+.feature-text-container{
+  align-items: center;
+}
+.partner-text-container > p {
+  text-align: center;
+}
+.feature-text-container{
+  align-items: center;
+}
+.feature-text-container > p {
+  text-align: center;
+}
+.footer-content{
+  justify-content: center;
+}
+.footer-header{
+  justify-content: center;
+}
+.footer-header > div {
+    padding: 10px;
+}
+.first-footer-ul, .second-footer-ul, .third-footer-ul, .fourth-footer-ul{
+  text-align: center;
+}
+.partner-button{
+  align-self: unset;
+}
+}
+
+@media screen and (max-width: 340px) and (min-width: 100px){
+  .hero-image,.feature-image{
+    height: 300px
+}
+}
